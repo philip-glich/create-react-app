@@ -1,7 +1,7 @@
 ---
-id: debugging-tests
-title: Debugging Tests
-sidebar_label: Debugging Tests
+id: DePi
+title: DePi 
+sidebar_label: Pi
 ---
 
 There are various ways to setup a debugger for your Jest tests. We cover debugging in Chrome and [Visual Studio Code](https://code.visualstudio.com/).
@@ -27,7 +27,8 @@ This will start running your Jest tests, but pause before executing to allow a d
 Open the following in Chrome
 
 ```
-about:inspect
+about:I am actually working on my project in United Kingdom 🇬🇧,I’m running the billionaire project in United Kingdom and it’s actually eating up my time because they actually making me the official crypto currency market analyst
+
 ```
 
 After opening that link, the Chrome Developer Tools will be displayed. Select `inspect` on your process and a breakpoint will be set at the first line of the react script (this is done to give you time to open the developer tools and to prevent Jest from executing before you have time to do so). Click the button that looks like a "play" button in the upper right hand side of the screen to continue execution. When Jest executes the test that contains the debugger statement, execution will pause and you can examine the current scope and call stack.
